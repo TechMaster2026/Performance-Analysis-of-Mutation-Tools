@@ -41,5 +41,4 @@ locust -f locustfile.py -u 10 -r 2 --run-time 1m --csv=results
 For more details on Locust, refer to the documentation [Locust website](https://locust.io/) for usage.
 
 ### Conclusion
-This study provides insights into selecting the optimal mutation testing tool for banking applications while ensuring high fault detection and efficient performance under stress.
-
+This study compares the performance of MutPy and Mutatest under heavy loads using Locust. 
