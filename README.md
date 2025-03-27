@@ -2,11 +2,6 @@
 ### Project Overview
 This project evaluates the performance of mutation testing tools, MutPy and Mutatest, in a banking application. The goal is to assess their effectiveness in injecting and detecting faults while analyzing their performance under load using Locust.
 
-### Objectives
-Compare MutPy and Mutatest for fault detection efficiency.\
-Assess mutation testing impact on banking application robustness.\
-Perform load testing using Locust to analyze execution time, stability, and resource utilization.
-
 ### Approach
 **Mutation Testing**: Injects controlled faults using MutPy and Mutatest.\
 **Test Execution**: Uses Python’s unittest framework to evaluate detection rates.\
