@@ -36,8 +36,7 @@ mutatest --src "path/to/your/code" -s BankApplication.py -t "pytest"
 
 ### Start Locust for load testing:
 ```
-locust -f locustfile_mutpy.py -u 10 -r 2 --run-time 1m --csv=results
-locust -f locustfile_mutatest.py -u 10 -r 2 --run-time 1m --csv=results  
+locust -f locustfile.py -u 10 -r 2 --run-time 1m --csv=results
 ```
 For more details on Locust, refer to the documentation [Locust website](https://locust.io/) for usage.
 
