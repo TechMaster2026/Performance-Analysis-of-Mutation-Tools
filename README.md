@@ -13,6 +13,9 @@ This project evaluates the performance of mutation testing tools, MutPy and Muta
 **Programming Language**: Python\
 **Testing Frameworks**: pytest, unittest
 
+### Prerequisites
+Ensure you have Python 3.8+ to 3.10 installed.
+
 ### How to Run
 ```
 pip install mutpy
