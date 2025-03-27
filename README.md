@@ -40,7 +40,7 @@ mutatest --src "path/to/your/code" -s BankApplication.py -t "pytest"
 ```
 locust -f locustfile.py -u 10 -r 2 --run-time 1m --csv=results  
 ```
-For more details on Locust, refer to the documentation [Locust website](https://docs.locust.io/) for usage.
+For more details on Locust, refer to the documentation [Locust website](https://locust.io/) for usage.
 
 ### Conclusion
 This study provides insights into selecting the optimal mutation testing tool for banking applications while ensuring high fault detection and efficient performance under stress.
